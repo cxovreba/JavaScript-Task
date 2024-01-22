@@ -72,5 +72,14 @@ const phoneNumber = '+99556646';
 if (
     firstName !== "" &&
     lastName !== "" &&
-    email !==
-)
+    email !== "" &&
+    password !== "" &&
+    phoneNumber !==
+) {
+    console.log("succesful registration");
+} else if(phoneNumber === "") {
+    console.log('phone number is required');
+}else {
+    console.log('input is required');
+}
+
