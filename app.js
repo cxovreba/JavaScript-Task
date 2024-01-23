@@ -69,17 +69,10 @@ const email = 'g.tskhovrebashvili@gmail.com';
 const password = 'giorgi123';
 const phoneNumber = '+99556646';
 
-if (
-    firstName !== "" &&
-    lastName !== "" &&
-    email !== "" &&
-    password !== "" &&
-    phoneNumber !==
-) {
+if (firstName !== "" && lastName !== "" && email !== "" && password !== "" && phoneNumber !== "") {
     console.log("succesful registration");
 } else if(phoneNumber === "") {
     console.log('phone number is required');
 }else {
     console.log('input is required');
-}
-
+};
